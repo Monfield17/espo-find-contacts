@@ -3,7 +3,7 @@ define(['action-handler'], (Dep) => {
     return class extends Dep {
 
         /**
-         * Funkce pro vyhledání kontaktů podle emailu Lead záznamu
+         * Funkce pro vyhledání kontaktů 
          */
         async findContact() {
 
@@ -14,7 +14,7 @@ define(['action-handler'], (Dep) => {
                 return;
             }
 
-            // AJAX dotaz na vyhledání Contact podle emailu
+            // dotaz na vyhledání Contact podle mailu
             let result;
 
             try {
@@ -30,7 +30,7 @@ define(['action-handler'], (Dep) => {
                 return;
             }
 
-            // zobrazení výsledků v modálním okně
+            // zobrazení výsledků v okně
             this.view.createView(
                 'findContactModal',
                 'views/modals/select-records',
