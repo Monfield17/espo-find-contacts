@@ -1,0 +1,11 @@
+{
+    "detailActionList": [
+        "__APPEND__",
+        {
+            "label": "Find Contact",
+            "name": "findContact",
+            "handler": "custom:lead-actions",
+            "actionFunction": "findContact"
+        }
+    ]
+}

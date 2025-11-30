@@ -1,0 +1,22 @@
+# --- Windows system files ---
+Thumbs.db
+Desktop.ini
+
+# --- EspoCRM cache & logs ---
+data/cache/
+data/logs/
+data/tmp/
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+
+# --- Node (in case it appears) ---
+node_modules/
+
+# --- Composer vendor (if using PHP dependencies) ---
+vendor/
+
+# --- Environment / secrets ---
+.env
+.env.local
