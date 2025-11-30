@@ -12,6 +12,7 @@ The action searches for Contact records that have the same email address as the 
 ## File Structure
 
 custom/Espo/Custom/Resources/metadata/clientDefs/Lead.json
+
 client/custom/src/lead-actions.js
 
 
